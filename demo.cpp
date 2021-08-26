@@ -17,6 +17,7 @@ public:
 int  main()
 {
 	person<int,string> p(100,"孙悟空");
+	cout<<"修改的痕迹"<<endl;	
 	cout << p.money << "and" << p.name<<endl;
 	person<char, float> p2('h', 3.14);
 	cout << p2.money << "  and " << p2.name;
